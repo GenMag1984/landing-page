@@ -67,8 +67,12 @@ h1 {
     color: #ffffff;
     font-size: 20px;
     font-weight: 900px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 5px 20px;
+    border-color: white;
+    height: 50px;
+    width: 150px;
+    margin: 0px;
 }
 
 .box {
@@ -126,6 +130,43 @@ h1 {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700px;
+}
+
+.signup-box {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-button {
+    display: flex;
+    background-color: #3882f6;
+    width: 750px;
+    padding: 60px 100px;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+.button-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.call-subtext {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.call-button button {
+    align-self: flex-end;
 }
 
 
